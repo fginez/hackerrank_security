@@ -3,6 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "basic-cryptanalysis", "basic-cryptanalysis\basic-cryptanalysis.vcxproj", "{AE135B2F-7920-4AF5-BA47-749AD0D642EE}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{E5A55214-EA67-46B0-A3C4-530DE9FBFC03}"
+	ProjectSection(SolutionItems) = preProject
+		basic-cryptanalysis\output.txt = basic-cryptanalysis\output.txt
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
